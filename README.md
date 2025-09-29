@@ -10,6 +10,9 @@ Ridham Sood
 
 Assignment 1: Develop classes to help the larger system.
 
+Assignment 2: Applying Object-Oriented Design using Abstraction, Polymorphism
+and Inheritance.
+
 ## Encapsulation
 
 The Encapsulation in the BankAccount class was achieved by defining various
