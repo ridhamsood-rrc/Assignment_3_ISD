@@ -3,10 +3,14 @@
 __author__ = "Ridham Sood"
 __version__ = "1.0.0"
 
-class BankAccount:
+from datetime import date
+from abc import ABC, abstractmethod
+
+class BankAccount(ABC):
     """Initializes the bank account object"""
 
-    def __init__(self, account_number:int, client_number:int, balance:float):
+    def __init__(self, account_number:int, client_number:int, balance:float,
+                 date_created: date):
         """ Initializes the init method.
         
         args:  
@@ -15,6 +19,8 @@ class BankAccount:
             balance(float): The balance of the account holder.
         
         """
+        # Constant
+        self.BASE_SERVICE_CHARGE = 0.50
 
         if isinstance(account_number, int):
             self.__account_number = account_number
@@ -30,6 +36,11 @@ class BankAccount:
             self.__balance = float(balance)
         except (ValueError, TypeError):
             self.__balance = 0.0
+
+        if isinstance(date_created, date):
+            self._date_created = date_created
+        else:
+            self._date_created = date.today()
 
     @property
     def account_number(self) -> int:
@@ -119,7 +130,8 @@ class BankAccount:
                 real_amount = valid_amount * -1
                 self.update_balance(real_amount)
             else:
-                raise ValueError(f"Withdraw amount: ${amount:,.2f} must not exceed the current balance: ${self.__balance}")
+                raise ValueError(f"Withdraw amount: ${amount:,.2f} must not exceed"
+                                 + f" the current balance: ${self.__balance}")
         else:
             raise ValueError(f"Withdraw amount: ${amount:,.2f} must be positive.")
         
@@ -132,3 +144,13 @@ class BankAccount:
         """
 
         return(f"Account number: {self.__account_number} Balance: ${self.__balance:,.2f}")
+
+    @abstractmethod
+    def get_service_charge(self) -> float:
+        """This method will calculate the service charges depending on the
+        type of Bank Account.
+        
+        Return: The services charges bank will charge.
+        """
+
+        pass
