@@ -17,6 +17,11 @@ class BankAccount(ABC):
             account_number(int): The account number of the account holder.
             client_number(int): The client number of the account holder.
             balance(float): The balance of the account holder.
+            date_created(date): Represents the date of the transactions.
+
+        Raises:
+        ValueError: Raises an error if account number, client number is not
+                    of init type.
         
         """
         # Constant
@@ -37,9 +42,9 @@ class BankAccount(ABC):
         except (ValueError, TypeError):
             self.__balance = 0.0
 
-        if isinstance(date_created, date):
-            self._date_created = date_created
-        else:
+        try:
+            self._date_created = date(date_created)
+        except ValueError:
             self._date_created = date.today()
 
     @property
@@ -153,4 +158,4 @@ class BankAccount(ABC):
         Return: The services charges bank will charge.
         """
 
-        pass
+        return self.BASE_SERVICE_CHARGE
