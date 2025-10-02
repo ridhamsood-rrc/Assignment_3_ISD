@@ -43,11 +43,11 @@ class InvestingAccount(BankAccount):
         date = self.TEN_YEARS_AGO
 
         if date <= self._date_created:
-            message = f"\nDate Created: {date}\n"\
+            message = f"\nDate Created: {self._date_created}\n"\
                     + f"Management Fee: ${self.__management_fee:.2f}\n"\
                     + f"Account Type: Investing"
         else:
-            message = f"\nDate Created: {date}\n"\
+            message = f"\nDate Created: {self._date_created}\n"\
                     + f"Management Fee: Waived\n"\
                     + f"Account Type: Investing"
         
