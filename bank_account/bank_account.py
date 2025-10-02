@@ -42,9 +42,9 @@ class BankAccount(ABC):
         except (ValueError, TypeError):
             self.__balance = 0.0
 
-        try:
-            self._date_created = date(date_created)
-        except ValueError:
+        if isinstance(date_created, date):
+            self._date_created = date_created
+        else:
             self._date_created = date.today()
 
     @property
@@ -148,7 +148,7 @@ class BankAccount(ABC):
             str: The final statement displayed to the account holder.
         """
 
-        return(f"Account number: {self.__account_number} Balance: ${self.__balance:,.2f}")
+        return(f"Account number: {self.__account_number}\nBalance: ${self.__balance:,.2f}")
 
     @abstractmethod
     def get_service_charge(self) -> float:

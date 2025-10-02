@@ -36,7 +36,7 @@ class ChequingAccount(BankAccount):
         try:
             self.__overdraft_rate = float(overdraft_rate)
         except ValueError:
-            self.__overdraft_rate = 0.05
+            self.__overdraft_rate = round(0.05, 2)
 
     def __str__(self) -> str:
         """This method returns the formatted message.
@@ -47,7 +47,7 @@ class ChequingAccount(BankAccount):
         """
         return (
             super().__str__() + f"\nOverdraft Limit: ${self.__overdraft_limit:,.2f}"
-            + f"\nOverdraft rate: ${self.__overdraft_rate:,.2f}%\nAccount Type: "
+            + f"\nOverdraft rate: ${self.__overdraft_rate * 100:,.2f}%\nAccount Type: "
             + f"Chequing"
         )
     
@@ -58,7 +58,7 @@ class ChequingAccount(BankAccount):
         float: The calculated service charge for the transaction.
         
         """
-        balance = self.__balance
+        balance = self._BankAccount__balance
 
         if balance >= self.__overdraft_limit:
             charge = self.BASE_SERVICE_CHARGE
