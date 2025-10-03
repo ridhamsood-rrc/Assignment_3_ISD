@@ -29,8 +29,12 @@ print()
 # 4b. Print the ChequingAccount
 # 4c. Print the service charges amount if calculated based on the 
 # current state of the ChequingAccount created in step 2.
-chequing.deposit(100)
-print(chequing)
+try:
+    chequing.deposit(100)
+    print(chequing)
+except ValueError as e:
+    print(e)
+
 print(f"Service Charge: ${chequing.get_service_charge()}")
 
 
@@ -53,8 +57,11 @@ print()
 # 7b. Print the SavingsAccount.
 # 7c. Print the service charges amount if calculated based on the 
 # current state of the SavingsAccount created in step 5.
-saving.withdraw(600)
-print(saving)
+try:
+    saving.withdraw(600)
+    print(saving)
+except ValueError as e:
+    print(e)
 
 print(f"Service Charge: ${saving.get_service_charge()}")
 
@@ -90,10 +97,13 @@ print("===================================================")
 # by using the withdraw method of the superclass and withdrawing 
 # the service charges determined by each instance invoking the 
 # polymorphic get_service_charges method.
-chequing.deposit(100)
-saving.deposit(400)
-investment.withdraw(300)
-investment_updated.withdraw(500)
+try:
+    chequing.withdraw(100)
+    saving.withdraw(200)
+    investment.withdraw(300)
+    investment_updated.withdraw(500)
+except ValueError as e:
+    print(e)
 
 
 # 13. Print each of the bank account objects created in steps 2, 5, 8 and 10.
