@@ -19,3 +19,9 @@ The Encapsulation in the BankAccount class was achieved by defining various
 functions and methods. Firstly, I defined the private attributes like
 __account_number and making it accessible by defining methods and
 properties.
+
+## Polymorphism
+
+The Polymorphism helps to call a same function in different ways and
+responds differently in different functions. For example, get_service_charge
+responded in different ways when called on different functions.
