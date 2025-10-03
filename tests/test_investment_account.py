@@ -4,7 +4,7 @@ __author__ = "Ridham Sood"
 __version__ = "1.0.0"
 
 import unittest
-from bank_account.investing_account import InvestingAccount
+from bank_account.investing_account import InvestmentAccount
 from datetime import date
 
 class TestClass(unittest.TestCase):
@@ -13,30 +13,30 @@ class TestClass(unittest.TestCase):
     def test_init_set_attributes_to_input_values(self):
 
         # Arrange
-        investment = InvestingAccount(12345, 123, 1000, date(2025, 5, 1), 3.00)
+        investment = InvestmentAccount(12345, 123, 1000, date(2025, 5, 1), 3.00)
 
         # Assert
         self.assertEqual(12345, investment._BankAccount__account_number)
         self.assertEqual(123, investment._BankAccount__client_number)
         self.assertEqual(1000, investment._BankAccount__balance)
         self.assertEqual(date(2025, 5, 1), investment._date_created)
-        self.assertEqual(3.00, investment._InvestingAccount__management_fee)
+        self.assertEqual(3.00, investment._InvestmentAccount__management_fee)
 
     def test_init_invalid_management_fee(self):
 
         # Arrange
-        investment = InvestingAccount(12345, 123, 1000, date(2025, 5, 1), "five")
+        investment = InvestmentAccount(12345, 123, 1000, date(2025, 5, 1), "five")
 
         # Act
         expected = 2.55
 
         # Assert
-        self.assertEqual(expected, investment._InvestingAccount__management_fee)
+        self.assertEqual(expected, investment._InvestmentAccount__management_fee)
 
     def test_get_service_charge_when_date_more_than_ten_years_ago(self):
 
         # Arrange
-        investment = InvestingAccount(12345, 123, 1000, date(2013, 5, 1), 3.00)
+        investment = InvestmentAccount(12345, 123, 1000, date(2013, 5, 1), 3.00)
 
         # Act
         actual = investment.get_service_charge()
@@ -48,7 +48,7 @@ class TestClass(unittest.TestCase):
     def test_get_service_charge_when_date_exactly_ten_years_ago(self):
 
         # Arrange
-        investment = InvestingAccount(12345, 123, 1000, date(2015, 10, 2), 3.00)
+        investment = InvestmentAccount(12345, 123, 1000, date(2015, 10, 2), 3.00)
 
         # Act
         actual = investment.get_service_charge()
@@ -60,7 +60,7 @@ class TestClass(unittest.TestCase):
     def test_get_service_charge_when_date_within_ten_years(self):
 
         # Arrange
-        investment = InvestingAccount(12345, 123, 1000, date(2018, 5, 1), 3.00)
+        investment = InvestmentAccount(12345, 123, 1000, date(2018, 5, 1), 3.00)
 
         # Act
         actual = investment.get_service_charge()
@@ -72,7 +72,7 @@ class TestClass(unittest.TestCase):
     def test_str_date_more_than_ten_years_ago_display_waived_management_fee(self):
 
         # Arrange
-        investment = InvestingAccount(12345, 123, 1000, date(2013, 5, 1), 3.00)
+        investment = InvestmentAccount(12345, 123, 1000, date(2013, 5, 1), 3.00)
 
         # Assert
         expected = (
@@ -88,7 +88,7 @@ class TestClass(unittest.TestCase):
     def test_str_date_within_ten_years_display_management_fee(self):
 
         # Arrange
-        investment = InvestingAccount(12345, 123, 1000, date(2018, 5, 1), 3.00)
+        investment = InvestmentAccount(12345, 123, 1000, date(2018, 5, 1), 3.00)
 
         # Assert
         expected = (

@@ -5,9 +5,8 @@ __Version__ = "1.0.0"
 
 from datetime import date, timedelta
 from bank_account.bank_account import BankAccount
-from bank_account.chequing_account import ChequingAccount
 
-class InvestingAccount(BankAccount):
+class InvestmentAccount(BankAccount):
     """This class calculates the transaction of the investing account."""
 
     def __init__(self, account_number: int, client_number: int, balance: float,
