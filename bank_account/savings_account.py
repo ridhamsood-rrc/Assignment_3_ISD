@@ -42,7 +42,7 @@ class SavingsAccount(BankAccount):
         """
 
         return (
-            super().__str__() + f"\nMinimum Balance: {self.__minimum_balance}"
+            super().__str__() + f"\nMinimum Balance: ${self.__minimum_balance:.2f}"
             + f"\nAccount Type: Savings"
         )
 
@@ -54,7 +54,7 @@ class SavingsAccount(BankAccount):
         
         """
 
-        if self.__balance >= self.__minimum_balance:
+        if self._BankAccount__balance >= self.__minimum_balance:
             charge = self.BASE_SERVICE_CHARGE
         else:
             charge = self.BASE_SERVICE_CHARGE * self.SERVICE_CHARGE_PREMIUM
