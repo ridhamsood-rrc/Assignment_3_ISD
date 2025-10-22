@@ -29,3 +29,14 @@ properties.
 The Polymorphism helps to call a same function in different ways and
 responds differently in different functions. For example, get_service_charge
 responded in different ways when called on different functions.
+
+## Strategy Pattern
+
+In this application, the Strategy pattern is used in different ways.
+The Strategy Pattern is used to separate the calculation of service
+charges from the account classes. By defining a ServiceChargeStrategy
+interface and implementing it in OverdraftStrategy, the ChequingAccount
+class can dynamically use different charging strategies without altering
+its core logic. The same logic goes with InvestAccount and SavingAccount
+class as I implemented ManagementFeeStrategy and MinimumBalanceStrategy
+respectively.
