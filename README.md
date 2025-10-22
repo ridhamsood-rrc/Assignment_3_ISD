@@ -13,6 +13,10 @@ Assignment 1: Develop classes to help the larger system.
 Assignment 2: Applying Object-Oriented Design using Abstraction, Polymorphism
 and Inheritance.
 
+Assignment 3: Applying the strategy and observer patterns. Adding these
+patterns add scalability and simplifies the functionality of the service
+charges.
+
 ## Encapsulation
 
 The Encapsulation in the BankAccount class was achieved by defining various
