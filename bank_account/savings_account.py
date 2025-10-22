@@ -5,6 +5,7 @@ __version__ = "1.0.0"
 
 from bank_account.bank_account import BankAccount
 from datetime import date
+from patterns.strategy.minimum_balance_strategy import MinimumBalanceStrategy
 
 class SavingsAccount(BankAccount):
     """This is the class for the saving account."""
@@ -24,14 +25,15 @@ class SavingsAccount(BankAccount):
         
         """
 
-        self.SERVICE_CHARGE_PREMIUM = 2.0
-
         super().__init__(account_number, client_number, balance, date_created)
 
         try:
             self.__minimum_balance = float(minimum_balance)
         except:
             self.__minimum_balance = 50
+        
+        # Declaring private attribute
+        self.__strategy = MinimumBalanceStrategy(minimum_balance)
 
     def __str__(self) -> str:
         """This method returns the formatted message.
@@ -54,9 +56,5 @@ class SavingsAccount(BankAccount):
         
         """
 
-        if self._BankAccount__balance >= self.__minimum_balance:
-            charge = self.BASE_SERVICE_CHARGE
-        else:
-            charge = self.BASE_SERVICE_CHARGE * self.SERVICE_CHARGE_PREMIUM
-
-        return charge
+        # Returning service charges with strategy pattern
+        return self.__strategy.calculate_service_charges(self)
