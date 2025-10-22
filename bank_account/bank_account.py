@@ -24,8 +24,6 @@ class BankAccount(ABC):
                     of init type.
         
         """
-        # Constant
-        self.BASE_SERVICE_CHARGE = 0.50
 
         if isinstance(account_number, int):
             self.__account_number = account_number
@@ -158,4 +156,4 @@ class BankAccount(ABC):
         Return: The services charges bank will charge.
         """
 
-        return self.BASE_SERVICE_CHARGE
+        pass
