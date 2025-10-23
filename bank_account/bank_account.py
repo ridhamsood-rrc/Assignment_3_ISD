@@ -5,8 +5,10 @@ __version__ = "1.0.0"
 
 from datetime import date
 from abc import ABC, abstractmethod
+from patterns.observer.subject import Subject
+from patterns.observer.observer import Observer
 
-class BankAccount(ABC):
+class BankAccount(Subject, ABC):
     """Initializes the bank account object"""
 
     def __init__(self, account_number:int, client_number:int, balance:float,
@@ -24,6 +26,9 @@ class BankAccount(ABC):
                     of init type.
         
         """
+        
+        self.LARGE_TRANSACTION_THRESHOLD = 9999.99
+        self.LOW_BALANCE_LEVEL = 50.0
 
         if isinstance(account_number, int):
             self.__account_number = account_number
@@ -86,6 +91,16 @@ class BankAccount(ABC):
             self.__balance += amount
         except ValueError:
             updated_balance = self.__balance
+
+        if self.__balance < self.LOW_BALANCE_LEVEL:
+            message = (f"Low balance warning {self.__balance}: on account"
+                       +f" {self.__account_number}")
+            self.notify(message)
+        
+        if amount > self.LARGE_TRANSACTION_THRESHOLD:
+            message = (f"Large transaction {amount}: on account "
+                       +f"{self.__account_number}")
+            self.notify(message)
       
 
     def deposit(self, amount:int) -> None:
@@ -136,6 +151,7 @@ class BankAccount(ABC):
                 raise ValueError(f"Withdraw amount: ${amount:,.2f} must not exceed"
                                  + f" the current balance: ${self.__balance}")
         else:
+
             raise ValueError(f"Withdraw amount: ${amount:,.2f} must be positive.")
         
 
@@ -157,3 +173,19 @@ class BankAccount(ABC):
         """
 
         pass
+
+    def attach(self, observer: Observer) -> None:
+        """"""
+
+        self._observer.append(observer)
+
+    def detach(self, observer: Observer) -> None:
+        """"""
+        if observer in self._observer:
+            self._observer.remove(observer)
+
+    def notify(self, message: str) -> None:
+        """"""
+
+        for observer in self._observer:
+            Observer.update(observer, message)
