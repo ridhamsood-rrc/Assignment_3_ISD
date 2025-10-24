@@ -3,8 +3,8 @@
 __author__ = "Ridham Sood"
 __version__ = "1.0.0"
 
-from abc import ABC, abstractmethod
 from .observer import Observer
+from abc import ABC, abstractmethod
 
 class Subject(ABC):
     """This is the superclass uses to maintain the list of observers and
