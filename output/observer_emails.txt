@@ -158,3 +158,23 @@ To: stephcurry30@gmail.com
 Subject: Alert: Unusual Activity: 2025-10-24 10:08:21.543556
 Message: Notification for 542: StephenCurry: Large transaction 50,000.00: on account 12536
 ---
+---
+To: ridham9@gmail.com
+Subject: Alert: Unusual Activity: 2025-10-24 12:52:32.186509
+Message: Notification for 123: RidhamSood: Large transaction 20,000.00: on account 12345
+---
+---
+To: stephcurry30@gmail.com
+Subject: Alert: Unusual Activity: 2025-10-24 12:52:32.189070
+Message: Notification for 542: StephenCurry: Large transaction 50,000.00: on account 12536
+---
+---
+To: ridham9@gmail.com
+Subject: Alert: Unusual Activity: 2025-10-24 13:29:42.235070
+Message: Notification for 123: RidhamSood: Large transaction 20,000.00: on account 12345
+---
+---
+To: stephcurry30@gmail.com
+Subject: Alert: Unusual Activity: 2025-10-24 13:29:42.237221
+Message: Notification for 542: StephenCurry: Large transaction 50,000.00: on account 12536
+---
