@@ -10,7 +10,7 @@ class Observer(ABC):
     made in the subject."""
 
     @abstractmethod
-    def update(self, message: str):
+    def update(self, message: str) -> None:
         """This method will update the changes.
         
         Args:
