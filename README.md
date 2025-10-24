@@ -40,3 +40,11 @@ class can dynamically use different charging strategies without altering
 its core logic. The same logic goes with InvestAccount and SavingAccount
 class as I implemented ManagementFeeStrategy and MinimumBalanceStrategy
 respectively.
+
+## Observer Pattern
+
+In this application, the Observer Pattern allows the BankAccount class
+to push the notifications to the observer(client) telling the client
+about the unusual transactions occurring on his/her account. Moreover,
+if in future, I want to add SMS alerts, I can do that too without
+altering any code of the BankAccount class.
