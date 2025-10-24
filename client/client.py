@@ -6,7 +6,7 @@ __version__ = "1.1.0"
 from email_validator import EmailNotValidError, validate_email
 from patterns.observer.observer import Observer
 from utility.file_utils import simulate_send_email
-import datetime
+from datetime import datetime
 
 class Client(Observer):
     """Initializes a client object."""
