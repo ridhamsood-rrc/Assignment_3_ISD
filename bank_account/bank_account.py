@@ -30,6 +30,8 @@ class BankAccount(Subject, ABC):
         self.LARGE_TRANSACTION_THRESHOLD = 9999.99
         self.LOW_BALANCE_LEVEL = 50.0
 
+        super().__init__()
+
         if isinstance(account_number, int):
             self.__account_number = account_number
         else:
@@ -98,7 +100,7 @@ class BankAccount(Subject, ABC):
             self.notify(message)
         
         if amount > self.LARGE_TRANSACTION_THRESHOLD:
-            message = (f"Large transaction {amount}: on account "
+            message = (f"Large transaction {amount:,.2f}: on account "
                        +f"{self.__account_number}")
             self.notify(message)
       
@@ -149,7 +151,7 @@ class BankAccount(Subject, ABC):
                 self.update_balance(real_amount)
             else:
                 raise ValueError(f"Withdraw amount: ${amount:,.2f} must not exceed"
-                                 + f" the current balance: ${self.__balance}")
+                                 + f" the current balance: ${self.__balance:,.2f}")
         else:
 
             raise ValueError(f"Withdraw amount: ${amount:,.2f} must be positive.")
@@ -175,17 +177,29 @@ class BankAccount(Subject, ABC):
         pass
 
     def attach(self, observer: Observer) -> None:
-        """"""
-
-        self._observer.append(observer)
+        """This method attaches the observer.
+        
+        Args:
+        observer(Observer): Represents the observer to be attached.
+        """
+        if observer not in self._observer:
+            self._observer.append(observer)
 
     def detach(self, observer: Observer) -> None:
-        """"""
+        """This method detaches the observer.
+        
+        Args:
+        observer(Observer): Represents the observer to be detached.
+        """
         if observer in self._observer:
             self._observer.remove(observer)
 
     def notify(self, message: str) -> None:
-        """"""
+        """This method push the notification to the observer.
+        
+        Args:
+        message(str): Represents the message to be shown.
+        """
 
         for observer in self._observer:
-            Observer.update(observer, message)
+            observer.update(message)
