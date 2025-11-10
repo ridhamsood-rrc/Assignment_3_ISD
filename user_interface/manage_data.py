@@ -1,6 +1,9 @@
-__author__ = "ACE Faculty"
+__author__ = "Ridham Sood"
 __version__ = "1.0.0"
 __credits__ = ""
+
+from bank_account import *
+from client.client import Client
 
 import os
 import sys
@@ -61,14 +64,63 @@ def load_data()->tuple[dict,dict]:
     # READ CLIENT DATA 
     with open(clients_csv_path, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
-        
+
+        try:
+            for row in reader:
+                client_number = int(row['client_number'])
+                first_name = str(row['first_name'])
+                last_name = str(row['last_name'])
+                email = str(row['email_address'])
+
+                client = Client(client_number, first_name, last_name, email)
+
+                client_listing[client_number] = client
+        except Exception as e:
+            logging.exception(f"Unable to create client: {e}")
 
     # READ ACCOUNT DATA
     with open(accounts_csv_path, newline='') as csvfile:
-        reader = csv.DictReader(csvfile)  
+        reader = csv.DictReader(csvfile)
 
+        try:
+            for row in reader:
+                account_number = int(row['account_number'])
+                client_number = int(row['client_number'])
+                balance = float(row['balance'])
+                date_created = datetime.strptime(row['date_created'], "%Y-%m-%d").date()
+                account_type = str(row['account_type'])
+                overdraft_limit = row['overdraft_limit']
+                overdraft_rate = row['overdraft_rate']
+                minimum_balance = row['minimum_balance']
+                management_fee = row['management_fee']
+
+                if account_type == "ChequingAccount":
+                    account = ChequingAccount(account_number, client_number,
+                                               balance, date_created, overdraft_limit,
+                                               overdraft_rate)
+                elif account_type == "SavingsAccount":
+                    account = SavingsAccount(account_number, client_number,
+                                            balance, date_created, minimum_balance)
+                elif account_type == "InvestmentAccount":
+                    account = InvestmentAccount(account_number, client_number,
+                                                  balance, date_created, management_fee)
+                
+                else:
+                    raise ValueError("Not a valid account type.")
+                
+                if client_number in client_listing:
+                    accounts[account_number] = account
+
+                else:
+                    logging.exception(f"Bank Account: {account_number}"
+                              + f" contains invalid client number: {client_number}")
+                    
+        except Exception as e:
+            logging.exception(f"Unable to create bank account: {e}")
+
+    file = (client_listing, accounts)
     # RETURN STATEMENT
-    
+    return file
 
 
 def update_data(updated_account: BankAccount) -> None:
