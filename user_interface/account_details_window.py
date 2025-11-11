@@ -4,7 +4,7 @@ __credits__ = ""
 
 from ui_superclasses.details_window import DetailsWindow
 from PySide6.QtWidgets import QMessageBox
-from PySide6.QtCore import Signal
+from PySide6.QtCore import Signal, Slot
 from bank_account.bank_account import BankAccount
 import copy
 
@@ -21,3 +21,52 @@ class AccountDetailsWindow(DetailsWindow):
             None
         """
         super().__init__()
+
+        if isinstance(account, BankAccount):
+            self.__account = copy.deepcopy(account)
+            self.account_number_label.setText(str(self.__account.account_number))
+            self.balance_label.setText(f"${self.__account.balance}")
+        else:
+            self.reject()
+            return
+        
+        self.deposit_button.clicked.connect(self.__on_apply_transaction)
+        self.withdraw_button.clicked.connect(self.__on_apply_transaction)
+        self.exit_button.clicked.connect(self.__on_exit)
+
+    
+    @Slot()
+    def __on_apply_transaction(self):
+        """"""
+
+        try:
+            amount_entered = float(self.transaction_amount_edit.text())
+        except ValueError as e:
+            QMessageBox.warning(self, "Invalid Data", "Amount must be numeric.")
+            self.transaction_amount_edit.setFocus()
+            return
+        
+        try:
+            sender = self.sender()
+
+            if sender == self.deposit_button:
+                value = "Deposit"
+                self.__account.deposit(amount_entered)
+
+            elif sender == self.withdraw_button:
+                value = "Withdraw"
+                self.__account.withdraw(amount_entered)
+            
+            self.balance_label.setText(f"${self.__account.balance:.2f}")
+            self.transaction_amount_edit.setText("")
+            self.transaction_amount_edit.setFocus()
+
+        except ValueError as e:
+            QMessageBox.warning(self, f"{value} failed", f"{e}")
+            self.transaction_amount_edit.setText("")
+            self.transaction_amount_edit.setFocus()
+            
+    @Slot()
+    def __on_exit(self):
+        """"""
+        self.close()
