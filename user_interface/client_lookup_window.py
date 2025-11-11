@@ -21,10 +21,12 @@ class ClientLookupWindow(LookupWindow):
 
         self.client_listing, self.accounts = load_data()
 
-        self.lookup_button.clicked.connect(self.on_lookup_button)
+        self.lookup_button.clicked.connect(self.__on_lookup_button)
+        self.client_number_edit.textChanged.connect(self.__on_text_change)
+        self.account_table.cellClicked.connect(self.__on_select_account)
 
     @Slot()
-    def on_lookup_button(self):
+    def __on_lookup_button(self):
         """"""
         
         try:
@@ -64,3 +66,27 @@ class ClientLookupWindow(LookupWindow):
                 self.account_table.setItem(row, 3, account_type)
 
         self.account_table.resizeColumnsToContents()
+
+    @Slot()
+    def __on_text_change(self):
+        """"""
+        self.account_table.setRowCount(0)
+
+    @Slot(int, int)
+    def __on_select_account(self, row: int, column: int):
+        """"""
+
+        selected_account = self.account_table.item(row, 0)
+        if selected_account == "":
+            QMessageBox.warning(self, "Invalid Selection", "Please select a valid record.")
+            return
+
+        selected_number = int(selected_account.text())
+        if selected_number in self.accounts:
+            bank_account = self.accounts[selected_number]
+
+            accounts_detail = AccountDetailsWindow(bank_account)
+            accounts_detail.exec_()
+        else:
+            QMessageBox.warning(self, "No Bank Account", "Bank Account selected does not exist.")
+            return
