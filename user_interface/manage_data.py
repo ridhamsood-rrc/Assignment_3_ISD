@@ -76,19 +76,19 @@ def load_data()->tuple[dict,dict]:
 
                 client_listing[client_number] = client
         except Exception as e:
-            logging.exception(f"Unable to create client: {e}")
+            logging.error(f"Unable to create client: {e}")
 
     # READ ACCOUNT DATA
     with open(accounts_csv_path, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
 
-        try:
-            for row in reader:
+        for row in reader:
+            try:
                 account_number = int(row['account_number'])
                 client_number = int(row['client_number'])
                 balance = float(row['balance'])
                 date_created = datetime.strptime(row['date_created'], "%Y-%m-%d").date()
-                account_type = str(row['account_type'])
+                account_type = row['account_type']
                 overdraft_limit = row['overdraft_limit']
                 overdraft_rate = row['overdraft_rate']
                 minimum_balance = row['minimum_balance']
@@ -112,11 +112,11 @@ def load_data()->tuple[dict,dict]:
                     accounts[account_number] = account
 
                 else:
-                    logging.exception(f"Bank Account: {account_number}"
+                    logging.error(f"Bank Account: {account_number}"
                               + f" contains invalid client number: {client_number}")
                     
-        except Exception as e:
-            logging.exception(f"Unable to create bank account: {e}")
+            except Exception as e:
+                logging.error(f"Unable to create bank account: {e}")
 
     file = (client_listing, accounts)
     # RETURN STATEMENT
