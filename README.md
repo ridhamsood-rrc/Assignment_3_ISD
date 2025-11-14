@@ -17,7 +17,7 @@ Assignment 3: Applying the strategy and observer patterns. Adding these
 patterns add scalability and simplifies the functionality of the service
 charges.
 
-Assignment 3: Incorporating Graphical User Interface(GUI)  into the PiXELL-River
+Assignment 4: Incorporating Graphical User Interface(GUI)  into the PiXELL-River
 Financial banking system. The end product will include a lookup window from
 which users can view existing Client and corresponding Bank Account Data.
 
