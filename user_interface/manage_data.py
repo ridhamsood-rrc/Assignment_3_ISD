@@ -87,7 +87,7 @@ def load_data()->tuple[dict,dict]:
                 account_number = int(row['account_number'])
                 client_number = int(row['client_number'])
                 balance = float(row['balance'])
-                date_created = datetime.strptime(row['date_created'], "%Y-%m-%d").date()
+                date_created = datetime.strptime(row['date_created'], "%Y-%m-%d")
                 account_type = row['account_type']
                 overdraft_limit = row['overdraft_limit']
                 overdraft_rate = row['overdraft_rate']

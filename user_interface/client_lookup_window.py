@@ -1,4 +1,4 @@
-__author__ = "ACE Faculty"
+__author__ = "Ridham Sood"
 __version__ = "1.0.0"
 __credits__ = ""
 
@@ -27,7 +27,9 @@ class ClientLookupWindow(LookupWindow):
 
     @Slot()
     def __on_lookup_button(self):
-        """"""
+        """This is a slot method used to get the client number and show
+        their account details.
+        """
         
         try:
             client_number_entered = int(self.client_number_edit.text())
@@ -69,12 +71,21 @@ class ClientLookupWindow(LookupWindow):
 
     @Slot()
     def __on_text_change(self):
-        """"""
+        """This is a slot method used to clear the bank account details
+        when the user will write the new client number.
+        """
         self.account_table.setRowCount(0)
 
     @Slot(int, int)
     def __on_select_account(self, row: int, column: int):
-        """"""
+        """This is the slot method used to get the cell clicked by the
+        user and display the account detail window for that particular
+        cell.
+
+        Args:
+        row(int): Represents the row of the table.
+        column(int): Represents the column of the table.
+        """
 
         selected_account = self.account_table.item(row, 0)
         if selected_account == "":
@@ -86,7 +97,21 @@ class ClientLookupWindow(LookupWindow):
             bank_account = self.accounts[selected_number]
 
             accounts_detail = AccountDetailsWindow(bank_account)
+            accounts_detail.balance_updated.connect(self.__update_data)
             accounts_detail.exec_()
         else:
             QMessageBox.warning(self, "No Bank Account", "Bank Account selected does not exist.")
             return
+        
+    @Slot()
+    def __update_data(self, account: BankAccount):
+        """This is the slot which will receive the signal from the account
+        detail window to update the balance of that account number.
+        """
+
+        for accounts in range(self.account_table.rowCount()):
+            if account.account_number == int(self.account_table.item(accounts, 0).text()):
+                self.account_table.item(accounts, 1).setText(f"${account.balance:,.2f}")
+                self.accounts[account.account_number] = account
+                update_data(account)
+                break
