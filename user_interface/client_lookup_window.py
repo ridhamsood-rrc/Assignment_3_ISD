@@ -13,10 +13,13 @@ from bank_account.bank_account import BankAccount
 from datetime import datetime
 
 class ClientLookupWindow(LookupWindow):
-    """"""
+    """A class to display the account details according to the client
+    number typed.
+    """
 
     def __init__(self):
-        """Initializes the init method"""
+        """Initializes the init method.
+        """
         super().__init__()
 
         self.client_listing, self.accounts = load_data()
@@ -107,6 +110,9 @@ class ClientLookupWindow(LookupWindow):
     def __update_data(self, account: BankAccount):
         """This is the slot which will receive the signal from the account
         detail window to update the balance of that account number.
+
+        Args:
+        account(BankAccount): Represents the bank account type.
         """
 
         for accounts in range(self.account_table.rowCount()):

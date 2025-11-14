@@ -40,7 +40,9 @@ class AccountDetailsWindow(DetailsWindow):
     
     @Slot()
     def __on_apply_transaction(self):
-        """"""
+        """This is the slot method used to calculate the transaction of
+        the client.
+        """
 
         try:
             amount_entered = float(self.transaction_amount_edit.text())
@@ -73,5 +75,7 @@ class AccountDetailsWindow(DetailsWindow):
             
     @Slot()
     def __on_exit(self):
-        """"""
+        """This is the slot method used to close the transaction screen
+        and move the user back to account detail screen.
+        """
         self.close()
