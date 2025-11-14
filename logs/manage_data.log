@@ -1,0 +1,1430 @@
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1001', 'first_name': 'John', 'last_name': 'Doe', 'email_address': 'johndoe@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 77, in load_data
+    client_listing.keys(client_number)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: dict.keys() takes no arguments (1 given)
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 91, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1001', 'first_name': 'John', 'last_name': 'Doe', 'email_address': 'johndoe@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 77, in load_data
+    client_listing.keys(client_number)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: dict.keys() takes no arguments (1 given)
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 91, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1001', 'first_name': 'John', 'last_name': 'Doe', 'email_address': 'johndoe@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 77, in load_data
+    client_listing.keys(client_number)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: dict.keys() takes no arguments (1 given)
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 91, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1001', 'first_name': 'John', 'last_name': 'Doe', 'email_address': 'johndoe@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 77, in load_data
+    client_listing.keys(client_number)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: dict.keys() takes no arguments (1 given)
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 91, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1001', 'first_name': 'John', 'last_name': 'Doe', 'email_address': 'johndoe@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 77, in load_data
+    client_listing.keys(client_number)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: dict.keys() takes no arguments (1 given)
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 91, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1001', 'first_name': 'John', 'last_name': 'Doe', 'email_address': 'johndoe@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 77, in load_data
+    client_listing.keys(client_number)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: dict.keys() takes no arguments (1 given)
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 91, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1001', 'first_name': 'John', 'last_name': 'Doe', 'email_address': 'johndoe@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 77, in load_data
+    client_listing.keys(client_number)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: dict.keys() takes no arguments (1 given)
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 91, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1001', 'first_name': 'John', 'last_name': 'Doe', 'email_address': 'johndoe@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 77, in load_data
+    client_listing.update(client_number, Client)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: update expected at most 1 argument, got 2
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 90, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 90, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 90, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Bank Account: 20001 contains invalid Client Number: 1001
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 90, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Bank Account: 20097 contains invalid Client Number: 1009
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 89, in load_data
+    balance = float(row['balance'])
+ValueError: could not convert string to float: 'ten'
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 90, in load_data
+    date_created = date(row['date_created'])
+TypeError: 'str' object cannot be interpreted as an integer
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - root - ERROR - Unable to create client: {'client_number': '1011', 'first_name': '', 'last_name': 'Jeffries', 'email_address': 'jeffries@pixell.com'} cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create bank account: could not convert string to float: 'Null'could not convert string to float: 'ten'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - root - ERROR - Unable to create client: First name cannot be blank. cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create bank account: could not convert string to float: 'Null'could not convert string to float: 'ten'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - root - ERROR - Unable to create bank account: could not convert string to float: could not convert string to float: 'Null'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: could not convert string to float: 'Null'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: could not convert string to float: 'Null'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: could not convert string to float: 'Null'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: 'Null'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 94, in load_data
+    minimum_balance = float(row['minimum_balance'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: 'Null'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 95, in load_data
+    management_fee = float(row['management_fee'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: 'Null'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 92, in load_data
+    overdraft_limit = float(row['overdraft_limit'])
+ValueError: could not convert string to float: 'Null'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 89, in load_data
+    balance = float(row['balance'])
+ValueError: could not convert string to float: 'ten'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: cannot access local variable 'saving' where it is not associated with a value
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 112, in load_data
+    accounts[account_number] = chequing, saving, investing
+                                         ^^^^^^
+UnboundLocalError: cannot access local variable 'saving' where it is not associated with a value
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 89, in load_data
+    balance = float(row['balance'])
+ValueError: could not convert string to float: 'ten'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 89, in load_data
+    balance = float(row['balance'])
+ValueError: could not convert string to float: 'ten'
+root - ERROR - Unable to create client: First name cannot be blank.
+
+Traceback (most recent call last):
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\user_interface\manage_data.py", line 75, in load_data
+    client = Client(client_number, first_name, last_name, email)
+  File "C:\Users\soodr\Intermediate_software_development\project\Sood_Ridham_Project\isd_project\client\client.py", line 42, in __init__
+    raise ValueError("First name cannot be blank.")
+ValueError: First name cannot be blank.
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+
+root - ERROR - Unable to create client: First name cannot be blank.
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: time data '20230915' does not match format '%Y-%m-%d'
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Bank Account: 20100 contains invalid client number: 9999
+
+

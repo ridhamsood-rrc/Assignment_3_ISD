@@ -17,6 +17,10 @@ Assignment 3: Applying the strategy and observer patterns. Adding these
 patterns add scalability and simplifies the functionality of the service
 charges.
 
+Assignment 4: Incorporating Graphical User Interface(GUI)  into the PiXELL-River
+Financial banking system. The end product will include a lookup window from
+which users can view existing Client and corresponding Bank Account Data.
+
 ## Encapsulation
 
 The Encapsulation in the BankAccount class was achieved by defining various
@@ -48,3 +52,11 @@ to push the notifications to the observer(client) telling the client
 about the unusual transactions occurring on his/her account. Moreover,
 if in future, I want to add SMS alerts, I can do that too without
 altering any code of the BankAccount class.
+
+## Event-Driven Programming Paradigm
+
+In this assignment, the Event-Driven Programming Paradigm was very useful
+as it makes the app more responsive and interactive. Using this, the code
+doesn't run in a fixed order but waits for the user to click the given
+button and then work according to the button clicked. It also makes the
+code run smoother and make the app responsive a lot.
